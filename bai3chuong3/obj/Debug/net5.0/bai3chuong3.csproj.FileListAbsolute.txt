@@ -1,0 +1,16 @@
+E:\Lab\C#\bai3chuong3\bin\Debug\net5.0\bai3chuong3.exe
+E:\Lab\C#\bai3chuong3\bin\Debug\net5.0\bai3chuong3.deps.json
+E:\Lab\C#\bai3chuong3\bin\Debug\net5.0\bai3chuong3.runtimeconfig.json
+E:\Lab\C#\bai3chuong3\bin\Debug\net5.0\bai3chuong3.runtimeconfig.dev.json
+E:\Lab\C#\bai3chuong3\bin\Debug\net5.0\bai3chuong3.dll
+E:\Lab\C#\bai3chuong3\bin\Debug\net5.0\ref\bai3chuong3.dll
+E:\Lab\C#\bai3chuong3\bin\Debug\net5.0\bai3chuong3.pdb
+E:\Lab\C#\bai3chuong3\obj\Debug\net5.0\bai3chuong3.csproj.AssemblyReference.cache
+E:\Lab\C#\bai3chuong3\obj\Debug\net5.0\bai3chuong3.GeneratedMSBuildEditorConfig.editorconfig
+E:\Lab\C#\bai3chuong3\obj\Debug\net5.0\bai3chuong3.AssemblyInfoInputs.cache
+E:\Lab\C#\bai3chuong3\obj\Debug\net5.0\bai3chuong3.AssemblyInfo.cs
+E:\Lab\C#\bai3chuong3\obj\Debug\net5.0\bai3chuong3.csproj.CoreCompileInputs.cache
+E:\Lab\C#\bai3chuong3\obj\Debug\net5.0\bai3chuong3.dll
+E:\Lab\C#\bai3chuong3\obj\Debug\net5.0\ref\bai3chuong3.dll
+E:\Lab\C#\bai3chuong3\obj\Debug\net5.0\bai3chuong3.pdb
+E:\Lab\C#\bai3chuong3\obj\Debug\net5.0\bai3chuong3.genruntimeconfig.cache

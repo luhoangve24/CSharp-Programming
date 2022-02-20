@@ -1,0 +1,16 @@
+E:\Lab\C#\chuong3donggoi\bin\Debug\net5.0\chuong3donggoi.exe
+E:\Lab\C#\chuong3donggoi\bin\Debug\net5.0\chuong3donggoi.deps.json
+E:\Lab\C#\chuong3donggoi\bin\Debug\net5.0\chuong3donggoi.runtimeconfig.json
+E:\Lab\C#\chuong3donggoi\bin\Debug\net5.0\chuong3donggoi.runtimeconfig.dev.json
+E:\Lab\C#\chuong3donggoi\bin\Debug\net5.0\chuong3donggoi.dll
+E:\Lab\C#\chuong3donggoi\bin\Debug\net5.0\ref\chuong3donggoi.dll
+E:\Lab\C#\chuong3donggoi\bin\Debug\net5.0\chuong3donggoi.pdb
+E:\Lab\C#\chuong3donggoi\obj\Debug\net5.0\chuong3donggoi.csproj.AssemblyReference.cache
+E:\Lab\C#\chuong3donggoi\obj\Debug\net5.0\chuong3donggoi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Lab\C#\chuong3donggoi\obj\Debug\net5.0\chuong3donggoi.AssemblyInfoInputs.cache
+E:\Lab\C#\chuong3donggoi\obj\Debug\net5.0\chuong3donggoi.AssemblyInfo.cs
+E:\Lab\C#\chuong3donggoi\obj\Debug\net5.0\chuong3donggoi.csproj.CoreCompileInputs.cache
+E:\Lab\C#\chuong3donggoi\obj\Debug\net5.0\chuong3donggoi.dll
+E:\Lab\C#\chuong3donggoi\obj\Debug\net5.0\ref\chuong3donggoi.dll
+E:\Lab\C#\chuong3donggoi\obj\Debug\net5.0\chuong3donggoi.pdb
+E:\Lab\C#\chuong3donggoi\obj\Debug\net5.0\chuong3donggoi.genruntimeconfig.cache
