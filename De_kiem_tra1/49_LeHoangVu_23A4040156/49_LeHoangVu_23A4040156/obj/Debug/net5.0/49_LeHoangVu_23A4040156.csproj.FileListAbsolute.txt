@@ -1,0 +1,16 @@
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\bin\Debug\net5.0\49_LeHoangVu_23A4040156.exe
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\bin\Debug\net5.0\49_LeHoangVu_23A4040156.deps.json
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\bin\Debug\net5.0\49_LeHoangVu_23A4040156.runtimeconfig.json
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\bin\Debug\net5.0\49_LeHoangVu_23A4040156.runtimeconfig.dev.json
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\bin\Debug\net5.0\49_LeHoangVu_23A4040156.dll
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\bin\Debug\net5.0\ref\49_LeHoangVu_23A4040156.dll
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\bin\Debug\net5.0\49_LeHoangVu_23A4040156.pdb
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\net5.0\49_LeHoangVu_23A4040156.csproj.AssemblyReference.cache
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\net5.0\49_LeHoangVu_23A4040156.GeneratedMSBuildEditorConfig.editorconfig
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\net5.0\49_LeHoangVu_23A4040156.AssemblyInfoInputs.cache
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\net5.0\49_LeHoangVu_23A4040156.AssemblyInfo.cs
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\net5.0\49_LeHoangVu_23A4040156.csproj.CoreCompileInputs.cache
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\net5.0\49_LeHoangVu_23A4040156.dll
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\net5.0\ref\49_LeHoangVu_23A4040156.dll
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\net5.0\49_LeHoangVu_23A4040156.pdb
+E:\Lab\C#\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\net5.0\49_LeHoangVu_23A4040156.genruntimeconfig.cache
