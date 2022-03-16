@@ -168,7 +168,7 @@ namespace CacBaiSau
             if ((MessageBox.Show("Bạn muốn thoát ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question))
                             == DialogResult.OK)
             {
-                Application.Exit();
+                this.Close();
             }    
         }
     }

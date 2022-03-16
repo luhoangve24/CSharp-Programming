@@ -73,6 +73,7 @@ namespace CacBaiSau
             this.rdo5.TabStop = true;
             this.rdo5.Text = "5%";
             this.rdo5.UseVisualStyleBackColor = true;
+            this.rdo5.CheckedChanged += new System.EventHandler(this.rdo5_CheckedChanged);
             // 
             // txtMahang
             // 
@@ -90,6 +91,7 @@ namespace CacBaiSau
             this.chkGiamgia.TabIndex = 4;
             this.chkGiamgia.Text = "Giảm giá";
             this.chkGiamgia.UseVisualStyleBackColor = true;
+            this.chkGiamgia.CheckedChanged += new System.EventHandler(this.chkGiamgia_CheckedChanged);
             this.chkGiamgia.Click += new System.EventHandler(this.chkGiamgia_Click);
             // 
             // label2
@@ -152,6 +154,7 @@ namespace CacBaiSau
             this.rdo10.TabStop = true;
             this.rdo10.Text = "10%";
             this.rdo10.UseVisualStyleBackColor = true;
+            this.rdo10.CheckedChanged += new System.EventHandler(this.rdo10_CheckedChanged);
             // 
             // btnThoat
             // 

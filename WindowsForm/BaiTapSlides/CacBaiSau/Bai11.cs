@@ -174,7 +174,7 @@ namespace CacBaiSau
             rsl = MessageBox.Show("Thoat ?", "Thong bao", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (rsl == DialogResult.OK)
             {
-                Application.Exit();
+                this.Close();
             }
         }
     }

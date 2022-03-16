@@ -20,3 +20,5 @@ E:\Lab\GitHub\CSharp-Programming\WindowsForm\BaiTapSlides\CacBaiSau\obj\Debug\Ca
 E:\Lab\GitHub\CSharp-Programming\WindowsForm\BaiTapSlides\CacBaiSau\obj\Debug\CacBaiSau.frmBai10.resources
 E:\Lab\GitHub\CSharp-Programming\WindowsForm\BaiTapSlides\CacBaiSau\obj\Debug\CacBaiSau.frmBai11.resources
 E:\Lab\GitHub\CSharp-Programming\WindowsForm\BaiTapSlides\CacBaiSau\obj\Debug\CacBaiSau.frmBai12.resources
+E:\Lab\GitHub\CSharp-Programming\WindowsForm\BaiTapSlides\CacBaiSau\obj\Debug\CacBaiSau.frmMain.resources
+E:\Lab\GitHub\CSharp-Programming\WindowsForm\BaiTapSlides\CacBaiSau\obj\Debug\CacBaiSau.frmOK.resources

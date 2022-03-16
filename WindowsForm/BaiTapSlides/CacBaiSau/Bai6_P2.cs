@@ -134,5 +134,20 @@ namespace CacBaiSau
                 Application.Exit();
             }
         }
+
+        private void chkGiamgia_CheckedChanged(object sender, EventArgs e)
+        {
+            txtTongtien.Text = "";
+        }
+
+        private void rdo5_CheckedChanged(object sender, EventArgs e)
+        {
+            txtTongtien.Text = "";
+        }
+
+        private void rdo10_CheckedChanged(object sender, EventArgs e)
+        {
+            txtTongtien.Text = "";
+        }
     }
 }
