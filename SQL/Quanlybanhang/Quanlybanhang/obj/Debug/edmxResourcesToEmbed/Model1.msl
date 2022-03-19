@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="Database1Entities1">
+    <EntitySetMapping Name="tblChatlieux">
+      <EntityTypeMapping TypeName="Database1Model.tblChatlieu">
+        <MappingFragment StoreEntitySet="tblChatlieu">
+          <ScalarProperty Name="Machatlieu" ColumnName="Machatlieu" />
+          <ScalarProperty Name="Tenchatlieu" ColumnName="Tenchatlieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblChitietHDBans">
+      <EntityTypeMapping TypeName="Database1Model.tblChitietHDBan">
+        <MappingFragment StoreEntitySet="tblChitietHDBan">
+          <ScalarProperty Name="MaHDBan" ColumnName="MaHDBan" />
+          <ScalarProperty Name="Mahang" ColumnName="Mahang" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="Giamgia" ColumnName="Giamgia" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblHangs">
+      <EntityTypeMapping TypeName="Database1Model.tblHang">
+        <MappingFragment StoreEntitySet="tblHang">
+          <ScalarProperty Name="Mahang" ColumnName="Mahang" />
+          <ScalarProperty Name="Tenhang" ColumnName="Tenhang" />
+          <ScalarProperty Name="Machatlieu" ColumnName="Machatlieu" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongianhap" ColumnName="Dongianhap" />
+          <ScalarProperty Name="Dongiaban" ColumnName="Dongiaban" />
+          <ScalarProperty Name="Anh" ColumnName="Anh" />
+          <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblHDBans">
+      <EntityTypeMapping TypeName="Database1Model.tblHDBan">
+        <MappingFragment StoreEntitySet="tblHDBan">
+          <ScalarProperty Name="MaHDBan" ColumnName="MaHDBan" />
+          <ScalarProperty Name="Manhanvien" ColumnName="Manhanvien" />
+          <ScalarProperty Name="Ngayban" ColumnName="Ngayban" />
+          <ScalarProperty Name="Makhach" ColumnName="Makhach" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblKhaches">
+      <EntityTypeMapping TypeName="Database1Model.tblKhach">
+        <MappingFragment StoreEntitySet="tblKhach">
+          <ScalarProperty Name="Makhach" ColumnName="Makhach" />
+          <ScalarProperty Name="Tenkhach" ColumnName="Tenkhach" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Dienthoai" ColumnName="Dienthoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblNhanviens">
+      <EntityTypeMapping TypeName="Database1Model.tblNhanvien">
+        <MappingFragment StoreEntitySet="tblNhanvien">
+          <ScalarProperty Name="Manhanvien" ColumnName="Manhanvien" />
+          <ScalarProperty Name="Tennhanvien" ColumnName="Tennhanvien" />
+          <ScalarProperty Name="Gioitinh" ColumnName="Gioitinh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Dienthoai" ColumnName="Dienthoai" />
+          <ScalarProperty Name="Ngaysinh" ColumnName="Ngaysinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

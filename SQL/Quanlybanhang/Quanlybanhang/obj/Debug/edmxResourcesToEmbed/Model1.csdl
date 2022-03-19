@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tblChatlieu">
+    <Key>
+      <PropertyRef Name="Machatlieu" />
+    </Key>
+    <Property Name="Machatlieu" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tenchatlieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblHangs" Relationship="Self.FK__tblHang__Machatl__36B12243" FromRole="tblChatlieu" ToRole="tblHang" />
+  </EntityType>
+  <EntityType Name="tblChitietHDBan">
+    <Key>
+      <PropertyRef Name="MaHDBan" />
+      <PropertyRef Name="Mahang" />
+    </Key>
+    <Property Name="MaHDBan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mahang" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Soluong" Type="Double" />
+    <Property Name="Dongia" Type="Double" />
+    <Property Name="Giamgia" Type="Double" />
+    <Property Name="Thanhtien" Type="Double" />
+    <NavigationProperty Name="tblHang" Relationship="Self.FK__tblChitie__Mahan__5165187F" FromRole="tblChitietHDBan" ToRole="tblHang" />
+    <NavigationProperty Name="tblHDBan" Relationship="Self.FK__tblChitie__MaHDB__5AEE82B9" FromRole="tblChitietHDBan" ToRole="tblHDBan" />
+  </EntityType>
+  <EntityType Name="tblHang">
+    <Key>
+      <PropertyRef Name="Mahang" />
+    </Key>
+    <Property Name="Mahang" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tenhang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Machatlieu" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Soluong" Type="Double" Nullable="false" />
+    <Property Name="Dongianhap" Type="Double" Nullable="false" />
+    <Property Name="Dongiaban" Type="Double" Nullable="false" />
+    <Property Name="Anh" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ghichu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblChatlieu" Relationship="Self.FK__tblHang__Machatl__36B12243" FromRole="tblHang" ToRole="tblChatlieu" />
+    <NavigationProperty Name="tblChitietHDBans" Relationship="Self.FK__tblChitie__Mahan__5165187F" FromRole="tblHang" ToRole="tblChitietHDBan" />
+  </EntityType>
+  <EntityType Name="tblHDBan">
+    <Key>
+      <PropertyRef Name="MaHDBan" />
+    </Key>
+    <Property Name="MaHDBan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Manhanvien" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ngayban" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Makhach" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tongtien" Type="Double" Nullable="false" />
+    <NavigationProperty Name="tblChitietHDBans" Relationship="Self.FK__tblChitie__MaHDB__5AEE82B9" FromRole="tblHDBan" ToRole="tblChitietHDBan" />
+    <NavigationProperty Name="tblKhach" Relationship="Self.FK__tblHDBan__Makhac__4E88ABD4" FromRole="tblHDBan" ToRole="tblKhach" />
+    <NavigationProperty Name="tblNhanvien" Relationship="Self.FK__tblHDBan__Manhan__4D94879B" FromRole="tblHDBan" ToRole="tblNhanvien" />
+  </EntityType>
+  <EntityType Name="tblKhach">
+    <Key>
+      <PropertyRef Name="Makhach" />
+    </Key>
+    <Property Name="Makhach" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tenkhach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Diachi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Dienthoai" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblHDBans" Relationship="Self.FK__tblHDBan__Makhac__4E88ABD4" FromRole="tblKhach" ToRole="tblHDBan" />
+  </EntityType>
+  <EntityType Name="tblNhanvien">
+    <Key>
+      <PropertyRef Name="Manhanvien" />
+    </Key>
+    <Property Name="Manhanvien" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tennhanvien" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Gioitinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Diachi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Dienthoai" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ngaysinh" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="tblHDBans" Relationship="Self.FK__tblHDBan__Manhan__4D94879B" FromRole="tblNhanvien" ToRole="tblHDBan" />
+  </EntityType>
+  <Association Name="FK__tblHang__Machatl__36B12243">
+    <End Role="tblChatlieu" Type="Self.tblChatlieu" Multiplicity="1" />
+    <End Role="tblHang" Type="Self.tblHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblChatlieu">
+        <PropertyRef Name="Machatlieu" />
+      </Principal>
+      <Dependent Role="tblHang">
+        <PropertyRef Name="Machatlieu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblChitie__Mahan__5165187F">
+    <End Role="tblHang" Type="Self.tblHang" Multiplicity="1" />
+    <End Role="tblChitietHDBan" Type="Self.tblChitietHDBan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHang">
+        <PropertyRef Name="Mahang" />
+      </Principal>
+      <Dependent Role="tblChitietHDBan">
+        <PropertyRef Name="Mahang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblChitie__MaHDB__5AEE82B9">
+    <End Role="tblHDBan" Type="Self.tblHDBan" Multiplicity="1" />
+    <End Role="tblChitietHDBan" Type="Self.tblChitietHDBan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHDBan">
+        <PropertyRef Name="MaHDBan" />
+      </Principal>
+      <Dependent Role="tblChitietHDBan">
+        <PropertyRef Name="MaHDBan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblHDBan__Makhac__4E88ABD4">
+    <End Role="tblKhach" Type="Self.tblKhach" Multiplicity="1" />
+    <End Role="tblHDBan" Type="Self.tblHDBan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKhach">
+        <PropertyRef Name="Makhach" />
+      </Principal>
+      <Dependent Role="tblHDBan">
+        <PropertyRef Name="Makhach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblHDBan__Manhan__4D94879B">
+    <End Role="tblNhanvien" Type="Self.tblNhanvien" Multiplicity="1" />
+    <End Role="tblHDBan" Type="Self.tblHDBan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblNhanvien">
+        <PropertyRef Name="Manhanvien" />
+      </Principal>
+      <Dependent Role="tblHDBan">
+        <PropertyRef Name="Manhanvien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tblChatlieux" EntityType="Self.tblChatlieu" />
+    <EntitySet Name="tblChitietHDBans" EntityType="Self.tblChitietHDBan" />
+    <EntitySet Name="tblHangs" EntityType="Self.tblHang" />
+    <EntitySet Name="tblHDBans" EntityType="Self.tblHDBan" />
+    <EntitySet Name="tblKhaches" EntityType="Self.tblKhach" />
+    <EntitySet Name="tblNhanviens" EntityType="Self.tblNhanvien" />
+    <AssociationSet Name="FK__tblHang__Machatl__36B12243" Association="Self.FK__tblHang__Machatl__36B12243">
+      <End Role="tblChatlieu" EntitySet="tblChatlieux" />
+      <End Role="tblHang" EntitySet="tblHangs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblChitie__Mahan__5165187F" Association="Self.FK__tblChitie__Mahan__5165187F">
+      <End Role="tblHang" EntitySet="tblHangs" />
+      <End Role="tblChitietHDBan" EntitySet="tblChitietHDBans" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblChitie__MaHDB__5AEE82B9" Association="Self.FK__tblChitie__MaHDB__5AEE82B9">
+      <End Role="tblHDBan" EntitySet="tblHDBans" />
+      <End Role="tblChitietHDBan" EntitySet="tblChitietHDBans" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblHDBan__Makhac__4E88ABD4" Association="Self.FK__tblHDBan__Makhac__4E88ABD4">
+      <End Role="tblKhach" EntitySet="tblKhaches" />
+      <End Role="tblHDBan" EntitySet="tblHDBans" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblHDBan__Manhan__4D94879B" Association="Self.FK__tblHDBan__Manhan__4D94879B">
+      <End Role="tblNhanvien" EntitySet="tblNhanviens" />
+      <End Role="tblHDBan" EntitySet="tblHDBans" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

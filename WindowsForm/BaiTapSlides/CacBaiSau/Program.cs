@@ -16,7 +16,7 @@ namespace CacBaiSau
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmOK());
+            Application.Run(new frmMain());
         }
     }
 }

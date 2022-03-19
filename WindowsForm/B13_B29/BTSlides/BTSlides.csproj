@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A15F385E-7C01-411F-B943-0FA688C35F03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BTSlides</RootNamespace>
+    <AssemblyName>BTSlides</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bai13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai13.Designer.cs">
+      <DependentUpon>Bai13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai14.Designer.cs">
+      <DependentUpon>Bai14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai15.Designer.cs">
+      <DependentUpon>Bai15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai16.Designer.cs">
+      <DependentUpon>Bai16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai17.Designer.cs">
+      <DependentUpon>Bai17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai18.Designer.cs">
+      <DependentUpon>Bai18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai19.Designer.cs">
+      <DependentUpon>Bai19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai20.Designer.cs">
+      <DependentUpon>Bai20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai21.Designer.cs">
+      <DependentUpon>Bai21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai22.Designer.cs">
+      <DependentUpon>Bai22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai23.Designer.cs">
+      <DependentUpon>Bai23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai25.Designer.cs">
+      <DependentUpon>Bai25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai28.Designer.cs">
+      <DependentUpon>Bai28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bai29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai29.Designer.cs">
+      <DependentUpon>Bai29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Bai13.resx">
+      <DependentUpon>Bai13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai14.resx">
+      <DependentUpon>Bai14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai15.resx">
+      <DependentUpon>Bai15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai16.resx">
+      <DependentUpon>Bai16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai17.resx">
+      <DependentUpon>Bai17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai18.resx">
+      <DependentUpon>Bai18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai19.resx">
+      <DependentUpon>Bai19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai20.resx">
+      <DependentUpon>Bai20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai21.resx">
+      <DependentUpon>Bai21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai22.resx">
+      <DependentUpon>Bai22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai23.resx">
+      <DependentUpon>Bai23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai25.resx">
+      <DependentUpon>Bai25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai28.resx">
+      <DependentUpon>Bai28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai29.resx">
+      <DependentUpon>Bai29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5347b5be3eb2463b9a69569655f27695" Name="Diagram1">
+        <EntityTypeShape EntityType="Database1Model.tblChatlieu" Width="1.5" PointX="4" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tblChitietHDBan" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tblHang" Width="1.5" PointX="5.875" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tblHDBan" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tblKhach" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tblNhanvien" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="Database1Model.FK__tblHang__Machatl__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tblChitie__Mahan__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tblChitie__MaHDB__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tblHDBan__Makhac__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tblHDBan__Manhan__4D94879B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
