@@ -36,7 +36,6 @@ namespace Quanlybanhang.Forms
             this.label3 = new System.Windows.Forms.Label();
             this.txtTenhang = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtMaCL = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtSoluong = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -58,6 +57,7 @@ namespace Quanlybanhang.Forms
             this.btnTimkiem = new System.Windows.Forms.Button();
             this.btnHienthiDS = new System.Windows.Forms.Button();
             this.dgridBang = new System.Windows.Forms.DataGridView();
+            this.cboMaCL = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.picAnh)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgridBang)).BeginInit();
             this.SuspendLayout();
@@ -117,13 +117,6 @@ namespace Quanlybanhang.Forms
             this.label4.Size = new System.Drawing.Size(84, 17);
             this.label4.TabIndex = 0;
             this.label4.Text = "Mã chất liệu";
-            // 
-            // txtMaCL
-            // 
-            this.txtMaCL.Location = new System.Drawing.Point(118, 136);
-            this.txtMaCL.Name = "txtMaCL";
-            this.txtMaCL.Size = new System.Drawing.Size(154, 22);
-            this.txtMaCL.TabIndex = 1;
             // 
             // label5
             // 
@@ -217,6 +210,7 @@ namespace Quanlybanhang.Forms
             this.picAnh.Location = new System.Drawing.Point(641, 33);
             this.picAnh.Name = "picAnh";
             this.picAnh.Size = new System.Drawing.Size(120, 120);
+            this.picAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAnh.TabIndex = 2;
             this.picAnh.TabStop = false;
             // 
@@ -228,6 +222,7 @@ namespace Quanlybanhang.Forms
             this.btnOpen.TabIndex = 3;
             this.btnOpen.Text = "Mở";
             this.btnOpen.UseVisualStyleBackColor = true;
+            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
             // btnLuu
             // 
@@ -237,6 +232,7 @@ namespace Quanlybanhang.Forms
             this.btnLuu.TabIndex = 30;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // BtnDong
             // 
@@ -282,6 +278,7 @@ namespace Quanlybanhang.Forms
             this.btnThem.TabIndex = 35;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnTimkiem
             // 
@@ -310,6 +307,15 @@ namespace Quanlybanhang.Forms
             this.dgridBang.RowTemplate.Height = 24;
             this.dgridBang.Size = new System.Drawing.Size(658, 171);
             this.dgridBang.TabIndex = 36;
+            this.dgridBang.Click += new System.EventHandler(this.dgridBang_Click);
+            // 
+            // cboMaCL
+            // 
+            this.cboMaCL.FormattingEnabled = true;
+            this.cboMaCL.Location = new System.Drawing.Point(118, 136);
+            this.cboMaCL.Name = "cboMaCL";
+            this.cboMaCL.Size = new System.Drawing.Size(154, 24);
+            this.cboMaCL.TabIndex = 37;
             // 
             // frmDMHH
             // 
@@ -318,6 +324,7 @@ namespace Quanlybanhang.Forms
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 510);
+            this.Controls.Add(this.cboMaCL);
             this.Controls.Add(this.dgridBang);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.btnHienthiDS);
@@ -335,7 +342,6 @@ namespace Quanlybanhang.Forms
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtSoluong);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtMaCL);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtTenhang);
             this.Controls.Add(this.label3);
@@ -348,6 +354,7 @@ namespace Quanlybanhang.Forms
             this.Controls.Add(this.label1);
             this.Name = "frmDMHH";
             this.Text = "FormDMHH";
+            this.Load += new System.EventHandler(this.frmDMHH_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picAnh)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgridBang)).EndInit();
             this.ResumeLayout(false);
@@ -363,7 +370,6 @@ namespace Quanlybanhang.Forms
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtTenhang;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtMaCL;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtSoluong;
         private System.Windows.Forms.Label label6;
@@ -385,5 +391,6 @@ namespace Quanlybanhang.Forms
         private System.Windows.Forms.Button btnTimkiem;
         private System.Windows.Forms.Button btnHienthiDS;
         private System.Windows.Forms.DataGridView dgridBang;
+        private System.Windows.Forms.ComboBox cboMaCL;
     }
 }

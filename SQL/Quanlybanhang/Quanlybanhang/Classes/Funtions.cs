@@ -34,5 +34,53 @@ namespace Quanlybanhang.Classes
                 Conn = null;
             }
         }
+
+        public static DataTable GetDataToTable(string SQL)
+        {
+            SqlDataAdapter sda = new SqlDataAdapter(SQL, Conn);
+            DataTable tbl = new DataTable();
+            sda.Fill(tbl);
+            return tbl;
+        }
+
+        public static bool Checkkey(string SQL) // Viet truoc
+        {
+            SqlDataAdapter sda = new SqlDataAdapter(SQL, Conn);
+            DataTable tbl = new DataTable();
+            sda.Fill(tbl);
+            if (tbl.Rows.Count > 0)
+                return true;
+            else
+                return false;
+        }
+
+
+        // Co the dung SqlDataAdapter
+        public static void RunSQL(string SQL)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = Conn;
+            cmd.CommandText = SQL;
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch(System.Exception exp)
+            {
+                MessageBox.Show(exp.ToString());
+            }
+            cmd.Dispose();
+            cmd = null;
+        }
+
+        public static void FillCombo(string SQL, ComboBox cbo, string ma, string ten)
+        {
+            SqlDataAdapter sda = new SqlDataAdapter(SQL, Conn);
+            DataTable tbl = new DataTable();
+            sda.Fill(tbl);
+            cbo.DataSource = tbl;
+            cbo.ValueMember = ma;
+            cbo.DisplayMember = ten;
+        }
     }
 }
