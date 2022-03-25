@@ -29,6 +29,7 @@ namespace Quanlybanhang.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNhanVien));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -50,7 +51,9 @@ namespace Quanlybanhang.Forms
             this.chkNam = new System.Windows.Forms.CheckBox();
             this.mskDienthoai = new System.Windows.Forms.MaskedTextBox();
             this.mskNgaysinh = new System.Windows.Forms.MaskedTextBox();
+            this.tblNhanvienBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgridBang)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblNhanvienBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -145,6 +148,7 @@ namespace Quanlybanhang.Forms
             this.dgridBang.RowTemplate.Height = 24;
             this.dgridBang.Size = new System.Drawing.Size(578, 181);
             this.dgridBang.TabIndex = 3;
+            this.dgridBang.Click += new System.EventHandler(this.dgridBang_Click);
             // 
             // btnLuu
             // 
@@ -206,9 +210,9 @@ namespace Quanlybanhang.Forms
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(22, 165);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(113, 20);
+            this.label7.Size = new System.Drawing.Size(71, 20);
             this.label7.TabIndex = 1;
-            this.label7.Text = "Tên nhân viên";
+            this.label7.Text = "Gioi tinh";
             // 
             // chkNam
             // 
@@ -236,6 +240,10 @@ namespace Quanlybanhang.Forms
             this.mskNgaysinh.Size = new System.Drawing.Size(169, 22);
             this.mskNgaysinh.TabIndex = 12;
             this.mskNgaysinh.ValidatingType = typeof(System.DateTime);
+            // 
+            // tblNhanvienBindingSource
+            // 
+            this.tblNhanvienBindingSource.DataMember = "tblNhanvien";
             // 
             // frmNhanVien
             // 
@@ -265,7 +273,9 @@ namespace Quanlybanhang.Forms
             this.Controls.Add(this.label1);
             this.Name = "frmNhanVien";
             this.Text = "Danh mục nhân viên";
+            this.Load += new System.EventHandler(this.frmNhanVien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgridBang)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblNhanvienBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -293,5 +303,7 @@ namespace Quanlybanhang.Forms
         private System.Windows.Forms.CheckBox chkNam;
         private System.Windows.Forms.MaskedTextBox mskDienthoai;
         private System.Windows.Forms.MaskedTextBox mskNgaysinh;
+        private System.Windows.Forms.BindingSource tblNhanvienBindingSource;
+       
     }
 }

@@ -132,6 +132,7 @@ namespace Quanlybanhang.Forms
             this.btnXoa.TabIndex = 4;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -171,6 +172,7 @@ namespace Quanlybanhang.Forms
             this.BtnDong.TabIndex = 4;
             this.BtnDong.Text = "Đóng";
             this.BtnDong.UseVisualStyleBackColor = true;
+            this.BtnDong.Click += new System.EventHandler(this.BtnDong_Click);
             // 
             // frmChatlieu
             // 

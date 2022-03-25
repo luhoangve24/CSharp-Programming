@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -76,13 +77,24 @@ namespace Quanlybanhang.Forms
 
             txtMachatlieu.Text = dgridBang.CurrentRow.Cells["Machatlieu"].Value.ToString();
             txtTenchatlieu.Text = dgridBang.CurrentRow.Cells["Tenchatlieu"].Value.ToString();
+            btnSua.Enabled = true;
+            btnXoa.Enabled = true;
+            btnBoqua.Enabled = true;
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
-            if (txtMachatlieu.Text == "" || txtTenchatlieu.Text == "")
+            if (txtMachatlieu.Text == "")
             {
-                MessageBox.Show("Bạn chưa nhập đầy đủ dữ liệu");
+                MessageBox.Show("Ban chua nhap ma chat lieu");
+                txtMachatlieu.Focus();
+                return;
+            }
+
+            if (txtTenchatlieu.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Ban chua nhap ten chat lieu");
+                txtTenchatlieu.Focus();
                 return;
             }
 
@@ -116,6 +128,7 @@ namespace Quanlybanhang.Forms
             btnLuu.Enabled = false;
             btnBoqua.Enabled = false;
             txtMachatlieu.Enabled = false;
+
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -145,6 +158,42 @@ namespace Quanlybanhang.Forms
             Load_Datagrid();
             ResetValue();
             btnSua.Enabled = false;
+            btnBoqua.Enabled = false;
+        }
+
+        private void BtnDong_Click(object sender, EventArgs e)
+        {
+            DialogResult q = new DialogResult();
+            q = MessageBox.Show("Ban co muon thoat?", "Thong bao", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (q == DialogResult.OK)
+            {
+                this.Close();
+            }
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            if (txtMachatlieu.Text == "")
+            {
+                MessageBox.Show("Chua chon ban ghi nao");
+                return;
+            }
+
+            if (tblchatlieu.Rows.Count == 0)
+            {
+                MessageBox.Show("Chua co du lieu");
+                return;
+            }
+
+            DialogResult q = new DialogResult();
+            q = MessageBox.Show("Ban muon xoa chu ?", "Thong bao", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (q == DialogResult.OK)
+            {
+                string sql = "Delete from tblChatlieu where Machatlieu=N'" + txtMachatlieu.Text + "'";
+                Classes.Funtions.RunSQL2(sql);
+                Load_Datagrid();
+                ResetValue();   
+            }
         }
     }
 }

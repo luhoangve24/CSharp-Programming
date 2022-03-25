@@ -73,6 +73,37 @@ namespace Quanlybanhang.Classes
             cmd = null;
         }
 
+        //Cach 2
+        public static void RunSQL2(string SQL)
+        {
+            SqlDataAdapter sda = new SqlDataAdapter();
+            sda.DeleteCommand = new SqlCommand(SQL, Conn);
+            try
+            {
+                sda.DeleteCommand.ExecuteNonQuery();
+            }
+            catch(System.Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+        public static void RunDelSQL(string SQL)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = Conn;
+            cmd.CommandText = SQL;
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch(System.Exception del)
+            {
+                MessageBox.Show("Du lieu dang dung boi chuong" +
+                    " trinh khac, khong the xoa" + " " + del.ToString());
+            }
+            cmd.Dispose();
+            cmd = null;
+        }
         public static void FillCombo(string SQL, ComboBox cbo, string ma, string ten)
         {
             SqlDataAdapter sda = new SqlDataAdapter(SQL, Conn);
