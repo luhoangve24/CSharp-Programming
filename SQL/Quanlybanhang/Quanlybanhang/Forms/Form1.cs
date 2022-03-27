@@ -65,5 +65,17 @@ namespace Quanlybanhang
             Forms.frmTimHDBan f = new Forms.frmTimHDBan();
             f.ShowDialog();
         }
+
+        private void testFeaturesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.FormTest f = new Forms.FormTest();
+            f.ShowDialog();
+        }
+
+        private void mnuFindHang_Click(object sender, EventArgs e)
+        {
+            Forms.FormTimKiemHH f = new Forms.FormTimKiemHH();
+            f.ShowDialog();
+        }
     }
 }

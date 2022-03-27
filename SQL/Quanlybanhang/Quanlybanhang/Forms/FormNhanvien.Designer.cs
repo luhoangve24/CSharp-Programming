@@ -158,6 +158,7 @@ namespace Quanlybanhang.Forms
             this.btnLuu.TabIndex = 5;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // BtnDong
             // 
@@ -167,6 +168,7 @@ namespace Quanlybanhang.Forms
             this.BtnDong.TabIndex = 6;
             this.BtnDong.Text = "Đóng";
             this.BtnDong.UseVisualStyleBackColor = true;
+            this.BtnDong.Click += new System.EventHandler(this.BtnDong_Click);
             // 
             // btnSua
             // 
@@ -176,6 +178,7 @@ namespace Quanlybanhang.Forms
             this.btnSua.TabIndex = 7;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnBoqua
             // 
@@ -185,6 +188,7 @@ namespace Quanlybanhang.Forms
             this.btnBoqua.TabIndex = 8;
             this.btnBoqua.Text = "Bỏ qua";
             this.btnBoqua.UseVisualStyleBackColor = true;
+            this.btnBoqua.Click += new System.EventHandler(this.btnBoqua_Click);
             // 
             // btnXoa
             // 
@@ -194,6 +198,7 @@ namespace Quanlybanhang.Forms
             this.btnXoa.TabIndex = 9;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
@@ -203,6 +208,7 @@ namespace Quanlybanhang.Forms
             this.btnThem.TabIndex = 10;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // label7
             // 
@@ -227,7 +233,7 @@ namespace Quanlybanhang.Forms
             // mskDienthoai
             // 
             this.mskDienthoai.Location = new System.Drawing.Point(510, 116);
-            this.mskDienthoai.Mask = "(+84) 999 999 999";
+            this.mskDienthoai.Mask = "84 999 999 999";
             this.mskDienthoai.Name = "mskDienthoai";
             this.mskDienthoai.Size = new System.Drawing.Size(169, 22);
             this.mskDienthoai.TabIndex = 12;
@@ -304,6 +310,5 @@ namespace Quanlybanhang.Forms
         private System.Windows.Forms.MaskedTextBox mskDienthoai;
         private System.Windows.Forms.MaskedTextBox mskNgaysinh;
         private System.Windows.Forms.BindingSource tblNhanvienBindingSource;
-       
     }
 }

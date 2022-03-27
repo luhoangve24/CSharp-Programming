@@ -47,6 +47,7 @@ namespace Quanlybanhang
             this.mnuBCHangton = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuBCDoanhthu = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuHelp = new System.Windows.Forms.ToolStripMenuItem();
+            this.testFeaturesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuThoat = new System.Windows.Forms.ToolStripMenuItem();
             this.pic1 = new System.Windows.Forms.PictureBox();
             this.lbl2 = new System.Windows.Forms.Label();
@@ -92,21 +93,21 @@ namespace Quanlybanhang
             // mnuNhanvien
             // 
             this.mnuNhanvien.Name = "mnuNhanvien";
-            this.mnuNhanvien.Size = new System.Drawing.Size(224, 26);
+            this.mnuNhanvien.Size = new System.Drawing.Size(169, 26);
             this.mnuNhanvien.Text = "Nhan vien";
             this.mnuNhanvien.Click += new System.EventHandler(this.mnuNhanvien_Click);
             // 
             // mnuKhachhang
             // 
             this.mnuKhachhang.Name = "mnuKhachhang";
-            this.mnuKhachhang.Size = new System.Drawing.Size(224, 26);
+            this.mnuKhachhang.Size = new System.Drawing.Size(169, 26);
             this.mnuKhachhang.Text = "Khach hang";
             this.mnuKhachhang.Click += new System.EventHandler(this.mnuKhachhang_Click);
             // 
             // mnuHanghoa
             // 
             this.mnuHanghoa.Name = "mnuHanghoa";
-            this.mnuHanghoa.Size = new System.Drawing.Size(224, 26);
+            this.mnuHanghoa.Size = new System.Drawing.Size(169, 26);
             this.mnuHanghoa.Text = "Hang hoa";
             this.mnuHanghoa.Click += new System.EventHandler(this.mnuHanghoa_Click);
             // 
@@ -121,7 +122,7 @@ namespace Quanlybanhang
             // mnuHoadonban
             // 
             this.mnuHoadonban.Name = "mnuHoadonban";
-            this.mnuHoadonban.Size = new System.Drawing.Size(224, 26);
+            this.mnuHoadonban.Size = new System.Drawing.Size(179, 26);
             this.mnuHoadonban.Text = "Hoa don ban";
             this.mnuHoadonban.Click += new System.EventHandler(this.mnuHoadonban_Click);
             // 
@@ -146,18 +147,19 @@ namespace Quanlybanhang
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(166, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(221, 6);
             // 
             // mnuFindHang
             // 
             this.mnuFindHang.Name = "mnuFindHang";
-            this.mnuFindHang.Size = new System.Drawing.Size(169, 26);
+            this.mnuFindHang.Size = new System.Drawing.Size(224, 26);
             this.mnuFindHang.Text = "Hang";
+            this.mnuFindHang.Click += new System.EventHandler(this.mnuFindHang_Click);
             // 
             // mnuFindKhachhang
             // 
             this.mnuFindKhachhang.Name = "mnuFindKhachhang";
-            this.mnuFindKhachhang.Size = new System.Drawing.Size(169, 26);
+            this.mnuFindKhachhang.Size = new System.Drawing.Size(224, 26);
             this.mnuFindKhachhang.Text = "Khach hang";
             // 
             // mnuBaocao
@@ -183,9 +185,18 @@ namespace Quanlybanhang
             // 
             // mnuHelp
             // 
+            this.mnuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.testFeaturesToolStripMenuItem});
             this.mnuHelp.Name = "mnuHelp";
             this.mnuHelp.Size = new System.Drawing.Size(78, 24);
             this.mnuHelp.Text = "Tro giup";
+            // 
+            // testFeaturesToolStripMenuItem
+            // 
+            this.testFeaturesToolStripMenuItem.Name = "testFeaturesToolStripMenuItem";
+            this.testFeaturesToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
+            this.testFeaturesToolStripMenuItem.Text = "Test Features";
+            this.testFeaturesToolStripMenuItem.Click += new System.EventHandler(this.testFeaturesToolStripMenuItem_Click);
             // 
             // mnuThoat
             // 
@@ -275,6 +286,7 @@ namespace Quanlybanhang
         private System.Windows.Forms.PictureBox pic1;
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.ToolStripMenuItem testFeaturesToolStripMenuItem;
     }
 }
 

@@ -242,6 +242,7 @@ namespace Quanlybanhang.Forms
             this.BtnDong.TabIndex = 31;
             this.BtnDong.Text = "Đóng";
             this.BtnDong.UseVisualStyleBackColor = true;
+            this.BtnDong.Click += new System.EventHandler(this.BtnDong_Click);
             // 
             // btnSua
             // 
@@ -251,6 +252,7 @@ namespace Quanlybanhang.Forms
             this.btnSua.TabIndex = 32;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnBoqua
             // 
@@ -260,6 +262,7 @@ namespace Quanlybanhang.Forms
             this.btnBoqua.TabIndex = 33;
             this.btnBoqua.Text = "Bỏ qua";
             this.btnBoqua.UseVisualStyleBackColor = true;
+            this.btnBoqua.Click += new System.EventHandler(this.btnBoqua_Click);
             // 
             // btnXoa
             // 
@@ -269,6 +272,7 @@ namespace Quanlybanhang.Forms
             this.btnXoa.TabIndex = 34;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
@@ -288,6 +292,7 @@ namespace Quanlybanhang.Forms
             this.btnTimkiem.TabIndex = 31;
             this.btnTimkiem.Text = "Tìm kiếm";
             this.btnTimkiem.UseVisualStyleBackColor = true;
+            this.btnTimkiem.Click += new System.EventHandler(this.btnTimkiem_Click);
             // 
             // btnHienthiDS
             // 
@@ -297,6 +302,7 @@ namespace Quanlybanhang.Forms
             this.btnHienthiDS.TabIndex = 31;
             this.btnHienthiDS.Text = "Hiển thị DS";
             this.btnHienthiDS.UseVisualStyleBackColor = true;
+            this.btnHienthiDS.Click += new System.EventHandler(this.btnHienthiDS_Click);
             // 
             // dgridBang
             // 

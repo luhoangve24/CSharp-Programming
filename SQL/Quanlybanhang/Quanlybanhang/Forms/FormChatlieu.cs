@@ -163,12 +163,7 @@ namespace Quanlybanhang.Forms
 
         private void BtnDong_Click(object sender, EventArgs e)
         {
-            DialogResult q = new DialogResult();
-            q = MessageBox.Show("Ban co muon thoat?", "Thong bao", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            if (q == DialogResult.OK)
-            {
                 this.Close();
-            }
         }
 
         private void btnXoa_Click(object sender, EventArgs e)

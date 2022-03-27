@@ -52,7 +52,7 @@ namespace Quanlybanhang.Forms
             // mskDienthoai
             // 
             this.mskDienthoai.Location = new System.Drawing.Point(510, 118);
-            this.mskDienthoai.Mask = "(+84) 999 999 999";
+            this.mskDienthoai.Mask = "(84) 999 999 999";
             this.mskDienthoai.Name = "mskDienthoai";
             this.mskDienthoai.Size = new System.Drawing.Size(169, 22);
             this.mskDienthoai.TabIndex = 31;
@@ -65,6 +65,7 @@ namespace Quanlybanhang.Forms
             this.btnLuu.TabIndex = 24;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // BtnDong
             // 
@@ -74,6 +75,7 @@ namespace Quanlybanhang.Forms
             this.BtnDong.TabIndex = 25;
             this.BtnDong.Text = "Đóng";
             this.BtnDong.UseVisualStyleBackColor = true;
+            this.BtnDong.Click += new System.EventHandler(this.BtnDong_Click);
             // 
             // btnSua
             // 
@@ -83,6 +85,7 @@ namespace Quanlybanhang.Forms
             this.btnSua.TabIndex = 26;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnBoqua
             // 
@@ -92,6 +95,7 @@ namespace Quanlybanhang.Forms
             this.btnBoqua.TabIndex = 27;
             this.btnBoqua.Text = "Bỏ qua";
             this.btnBoqua.UseVisualStyleBackColor = true;
+            this.btnBoqua.Click += new System.EventHandler(this.btnBoqua_Click);
             // 
             // btnXoa
             // 
@@ -101,6 +105,7 @@ namespace Quanlybanhang.Forms
             this.btnXoa.TabIndex = 28;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
@@ -110,6 +115,7 @@ namespace Quanlybanhang.Forms
             this.btnThem.TabIndex = 29;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // dgridBang
             // 
@@ -120,6 +126,7 @@ namespace Quanlybanhang.Forms
             this.dgridBang.RowTemplate.Height = 24;
             this.dgridBang.Size = new System.Drawing.Size(578, 181);
             this.dgridBang.TabIndex = 23;
+            this.dgridBang.Click += new System.EventHandler(this.dgridBang_Click);
             // 
             // label5
             // 
@@ -219,6 +226,7 @@ namespace Quanlybanhang.Forms
             this.Controls.Add(this.label1);
             this.Name = "frmKhachhang";
             this.Text = "FormKhachhang";
+            this.Load += new System.EventHandler(this.frmKhachhang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgridBang)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

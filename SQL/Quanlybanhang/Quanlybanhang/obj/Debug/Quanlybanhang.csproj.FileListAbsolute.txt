@@ -17,3 +17,11 @@ E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\obj\Debug\Quanl
 E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\obj\Debug\Quanlybanhang.Forms.frmKhachhang.resources
 E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\obj\Debug\Quanlybanhang.Forms.frmNhanVien.resources
 E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\obj\Debug\Quanlybanhang.Forms.frmTimHDBan.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\obj\Debug\Quanlybanhang.csproj.ResolveComReference.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\obj\Debug\Quanlybanhang.Forms.FormHoaDonNhap.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\obj\Debug\Quanlybanhang.Forms.FormTest.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\bin\Debug\Interop.WMPLib.dll
+E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\bin\Debug\AxInterop.WMPLib.dll
+E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\obj\Debug\Interop.WMPLib.dll
+E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\obj\Debug\AxInterop.WMPLib.dll
+E:\Lab\GitHub\CSharp-Programming\SQL\Quanlybanhang\Quanlybanhang\obj\Debug\Quanlybanhang.Forms.FormTimKiemHH.resources
