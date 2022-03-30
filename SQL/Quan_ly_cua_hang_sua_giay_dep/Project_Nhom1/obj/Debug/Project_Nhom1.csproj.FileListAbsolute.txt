@@ -1,0 +1,15 @@
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\bin\Debug\Project_Nhom1.exe.config
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\bin\Debug\Project_Nhom1.exe
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\bin\Debug\Project_Nhom1.pdb
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\bin\Debug\EntityFramework.dll
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\bin\Debug\EntityFramework.SqlServer.dll
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\bin\Debug\EntityFramework.xml
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\bin\Debug\EntityFramework.SqlServer.xml
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.csproj.AssemblyReference.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.frmMain.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.Properties.Resources.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.csproj.GenerateResource.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.csproj.CoreCompileInputs.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.csproj.CopyComplete
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.exe
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.pdb

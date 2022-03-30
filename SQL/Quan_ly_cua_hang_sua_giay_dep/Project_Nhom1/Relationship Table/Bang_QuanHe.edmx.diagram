@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ee4dc728291748e3a11865e84b945c63" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="Database_CuaHangModel.tblChiTietHDDX" Width="1.5" PointX="11.125" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database_CuaHangModel.tblChiTietHDNH" Width="1.5" PointX="10.375" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database_CuaHangModel.tblHoaDonDX" Width="1.5" PointX="4.625" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database_CuaHangModel.tblHoaDonNH" Width="1.5" PointX="7.375" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database_CuaHangModel.tblKhachHang" Width="1.5" PointX="1.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database_CuaHangModel.tblNhanVien" Width="1.5" PointX="0.5" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database_CuaHangModel.tblSanPham" Width="1.5" PointX="15.875" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database_CuaHangModel.tblXuong" Width="1.5" PointX="0.5" PointY="10.875" IsExpanded="true" />
+        <AssociationConnector Association="Database_CuaHangModel.FK_CTHDDX_MaHDD" ManuallyRouted="false" />
+        <AssociationConnector Association="Database_CuaHangModel.FK_CTHDDX_Makhach" ManuallyRouted="false" />
+        <AssociationConnector Association="Database_CuaHangModel.FK_CTHDDX_MaSP" ManuallyRouted="false" />
+        <AssociationConnector Association="Database_CuaHangModel.FK_CTHDNH_MaHDN" ManuallyRouted="false" />
+        <AssociationConnector Association="Database_CuaHangModel.FK_CTHDNH_MaSP" ManuallyRouted="false" />
+        <AssociationConnector Association="Database_CuaHangModel.FK_HDDX_Manhanvien" ManuallyRouted="false" />
+        <AssociationConnector Association="Database_CuaHangModel.FK_HDDX_Maxuong" ManuallyRouted="false" />
+        <AssociationConnector Association="Database_CuaHangModel.FK_HDNH_Makhach" ManuallyRouted="false" />
+        <AssociationConnector Association="Database_CuaHangModel.FK_HDNH_Manhanvien" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

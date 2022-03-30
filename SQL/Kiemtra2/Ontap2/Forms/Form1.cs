@@ -32,6 +32,7 @@ namespace Ontap2
             string sql;
             sql = "SELECT Mamau, Tenmau FROM tblMausac";
             Functions.Functions.FillCombo(sql, cboMamau, "Mamau", "Mamau");
+            cboMamau.SelectedIndex = -1;
         }
 
         private void Load_Grid()
@@ -58,7 +59,7 @@ namespace Ontap2
             btnBoqua.Enabled = true;
             btnLuu.Enabled = true;
             btnXoa.Enabled = false;
-            btnSua.Enabled = true;
+            btnSua.Enabled = false;
             txtMahang.Enabled = true;
             ResetValues();
         }
@@ -258,7 +259,8 @@ namespace Ontap2
             txtTGBH.Text = d_GridView.CurrentRow.Cells["Thoigianbaohanh"].Value.ToString();
             txtPicPath.Text = d_GridView.CurrentRow.Cells["Anh"].Value.ToString();
             picAnh.Image = Image.FromFile(txtPicPath.Text);
-
+            btnThem.Enabled = false;
+            btnXoa.Enabled = false;
             btnBoqua.Enabled = true;
         }
     }
