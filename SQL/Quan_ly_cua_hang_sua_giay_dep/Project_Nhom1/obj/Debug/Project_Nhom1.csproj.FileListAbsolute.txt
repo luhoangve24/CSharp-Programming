@@ -13,3 +13,9 @@ E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1
 E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.csproj.CopyComplete
 E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.exe
 E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.pdb
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.Forms.frmNhanVien.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.Forms.frmSanPham.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.Forms.frmHDDX.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.Forms.frmHDNH.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.Forms.frmKhachHang.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_cua_hang_sua_giay_dep\Project_Nhom1\obj\Debug\Project_Nhom1.Forms.frmXuong.resources

@@ -70,6 +70,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Funtions.cs" />
+    <Compile Include="Forms\FormHDDX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHDDX.Designer.cs">
+      <DependentUpon>FormHDDX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormHDNH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHDNH.Designer.cs">
+      <DependentUpon>FormHDNH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormKhachHang.Designer.cs">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormNhanVien.Designer.cs">
+      <DependentUpon>FormNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSanPham.Designer.cs">
+      <DependentUpon>FormSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormXuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormXuong.Designer.cs">
+      <DependentUpon>FormXuong.cs</DependentUpon>
+    </Compile>
     <Compile Include="Relationship Table\Bang_QuanHe.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -117,8 +154,26 @@
     <Compile Include="Relationship Table\tblXuong.cs">
       <DependentUpon>Bang_QuanHe.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\FormHDDX.resx">
+      <DependentUpon>FormHDDX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHDNH.resx">
+      <DependentUpon>FormHDNH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormKhachHang.resx">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNhanVien.resx">
+      <DependentUpon>FormNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSanPham.resx">
+      <DependentUpon>FormSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormXuong.resx">
+      <DependentUpon>FormXuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
