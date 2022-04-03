@@ -1,0 +1,10 @@
+E:\Lab\GitHub\CSharp-Programming\SQL\DanhMucLoaiThu\DanhMucLoaiThu\bin\Debug\DanhMucLoaiThu.exe.config
+E:\Lab\GitHub\CSharp-Programming\SQL\DanhMucLoaiThu\DanhMucLoaiThu\bin\Debug\DanhMucLoaiThu.exe
+E:\Lab\GitHub\CSharp-Programming\SQL\DanhMucLoaiThu\DanhMucLoaiThu\bin\Debug\DanhMucLoaiThu.pdb
+E:\Lab\GitHub\CSharp-Programming\SQL\DanhMucLoaiThu\DanhMucLoaiThu\obj\Debug\DanhMucLoaiThu.csproj.AssemblyReference.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\DanhMucLoaiThu\DanhMucLoaiThu\obj\Debug\DanhMucLoaiThu.Form1.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\DanhMucLoaiThu\DanhMucLoaiThu\obj\Debug\DanhMucLoaiThu.Properties.Resources.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\DanhMucLoaiThu\DanhMucLoaiThu\obj\Debug\DanhMucLoaiThu.csproj.GenerateResource.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\DanhMucLoaiThu\DanhMucLoaiThu\obj\Debug\DanhMucLoaiThu.csproj.CoreCompileInputs.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\DanhMucLoaiThu\DanhMucLoaiThu\obj\Debug\DanhMucLoaiThu.exe
+E:\Lab\GitHub\CSharp-Programming\SQL\DanhMucLoaiThu\DanhMucLoaiThu\obj\Debug\DanhMucLoaiThu.pdb

@@ -16,7 +16,7 @@ namespace KiemTra2
 
         public static void Ketnoi()
         {
-            connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ADMIN\source\repos\KiemTra2\KiemTra2\Database\DatabaseDMHH.mdf;Integrated Security=True;Connect Timeout=30";
+            connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Lab\GitHub\CSharp-Programming\KiemTra2\KiemTra2\Database\DatabaseDMHH.mdf;Integrated Security=True;Connect Timeout=30";
             Conn = new SqlConnection(connString);
             Conn.Open();
         }
@@ -124,3 +124,18 @@ namespace KiemTra2
         }
     }
 }
+
+        private void Load_DG()
+        {
+            string sql;
+            sql = "SELECT a.Masach, a.Tensach, a.NXB, a.Giasach, a.Soluong FROM tblSachTruyen a, tblNXB b WHERE a.MaNXB = b.MaNXB";
+            tblDMT = Funtions.GetDataToTable(sql);
+            data_Grid.DataSource = tblDMT;
+            string[] Header = new string[5] { "Ma sach", "Ten sach", "NXB", "Gia sach", "So luong" };
+            for (int i = 0; i < Header.Length; i++)
+            {
+                data_Grid.Columns[i].HeaderText = Header[i];
+            }
+            data_Grid.AllowUserToAddRows = false;
+            data_Grid.EditMode = DataGridViewEditMode.EditProgrammatically;
+        }

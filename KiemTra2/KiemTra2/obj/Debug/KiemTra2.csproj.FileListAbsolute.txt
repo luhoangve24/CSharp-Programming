@@ -8,3 +8,13 @@ C:\Users\ADMIN\source\repos\KiemTra2\KiemTra2\obj\Debug\KiemTra2.csproj.Generate
 C:\Users\ADMIN\source\repos\KiemTra2\KiemTra2\obj\Debug\KiemTra2.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\source\repos\KiemTra2\KiemTra2\obj\Debug\KiemTra2.exe
 C:\Users\ADMIN\source\repos\KiemTra2\KiemTra2\obj\Debug\KiemTra2.pdb
+E:\Lab\GitHub\CSharp-Programming\KiemTra2\KiemTra2\bin\Debug\KiemTra2.exe.config
+E:\Lab\GitHub\CSharp-Programming\KiemTra2\KiemTra2\bin\Debug\KiemTra2.exe
+E:\Lab\GitHub\CSharp-Programming\KiemTra2\KiemTra2\bin\Debug\KiemTra2.pdb
+E:\Lab\GitHub\CSharp-Programming\KiemTra2\KiemTra2\obj\Debug\KiemTra2.csproj.AssemblyReference.cache
+E:\Lab\GitHub\CSharp-Programming\KiemTra2\KiemTra2\obj\Debug\KiemTra2.frmDMHH.resources
+E:\Lab\GitHub\CSharp-Programming\KiemTra2\KiemTra2\obj\Debug\KiemTra2.Properties.Resources.resources
+E:\Lab\GitHub\CSharp-Programming\KiemTra2\KiemTra2\obj\Debug\KiemTra2.csproj.GenerateResource.cache
+E:\Lab\GitHub\CSharp-Programming\KiemTra2\KiemTra2\obj\Debug\KiemTra2.csproj.CoreCompileInputs.cache
+E:\Lab\GitHub\CSharp-Programming\KiemTra2\KiemTra2\obj\Debug\KiemTra2.exe
+E:\Lab\GitHub\CSharp-Programming\KiemTra2\KiemTra2\obj\Debug\KiemTra2.pdb

@@ -1,0 +1,10 @@
+E:\Lab\GitHub\CSharp-Programming\SQL\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\bin\Debug\49_LeHoangVu_23A4040156.exe.config
+E:\Lab\GitHub\CSharp-Programming\SQL\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\bin\Debug\49_LeHoangVu_23A4040156.exe
+E:\Lab\GitHub\CSharp-Programming\SQL\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\bin\Debug\49_LeHoangVu_23A4040156.pdb
+E:\Lab\GitHub\CSharp-Programming\SQL\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\49_LeHoangVu_23A4040156.csproj.AssemblyReference.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\_49_LeHoangVu_23A4040156.frmDMT.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\_49_LeHoangVu_23A4040156.Properties.Resources.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\49_LeHoangVu_23A4040156.csproj.GenerateResource.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\49_LeHoangVu_23A4040156.csproj.CoreCompileInputs.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\49_LeHoangVu_23A4040156.exe
+E:\Lab\GitHub\CSharp-Programming\SQL\49_LeHoangVu_23A4040156\49_LeHoangVu_23A4040156\obj\Debug\49_LeHoangVu_23A4040156.pdb
